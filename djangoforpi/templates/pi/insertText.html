@@ -1,0 +1,9 @@
+<label for="name">하고 싶은 말을 짧게 적어 주세요: </label>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <input type="submit">
+</form>
