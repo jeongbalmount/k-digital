@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .forms import PostForm
+# from GPIO에 해당하는 라이브러리 호출
 
 
 def index(request):
